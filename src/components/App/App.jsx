@@ -1,10 +1,12 @@
 import Profile from "../Profile/Profile";
 import user from "../Profile/userData.json";
+import "modern-normalize";
+import "../App/GlobalStyle.css";
 
 export default function App() {
   return (
-    <div>
+    <body>
       <Profile items={user} />
-    </div>
+    </body>
   );
 }
