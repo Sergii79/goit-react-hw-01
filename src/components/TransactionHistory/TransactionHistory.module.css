@@ -1,0 +1,37 @@
+.container {
+  margin: 100px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e7ecf2;
+  box-shadow: 0 0 15px 1px #c8c8c8;
+
+  border-collapse: collapse;
+}
+
+.subject {
+  background-color: #2b3030;
+}
+
+.wrap {
+  border: 2px solid black;
+  text-align: center;
+  &:nth-child(2n) {
+    background-color: rgb(192, 192, 192);
+  }
+}
+.subtitle {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 8px;
+  text-transform: capitalize;
+
+  font-size: 30px;
+  font-weight: 400;
+  border: 2px solid black;
+}
