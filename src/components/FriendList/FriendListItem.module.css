@@ -1,0 +1,21 @@
+.section {
+  text-align: center;
+}
+.subject {
+  color: black;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.online {
+  color: green; /* Цвет для онлайн статуса */
+}
+
+.offline {
+  color: red; /* Цвет для оффлайн статуса */
+}
