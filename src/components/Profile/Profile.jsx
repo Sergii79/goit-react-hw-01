@@ -3,7 +3,7 @@ import css from "./Profile.module.css";
 console.log(css);
 
 export default function Profile({
-  items: {
+  profiles: {
     username,
     tag,
     location,

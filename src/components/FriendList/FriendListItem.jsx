@@ -8,7 +8,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
     statusClasses.push(css.offline);
   }
   return (
-    <div className={css.section}>
+    <div>
       <img src={avatar} alt="Avatar" width="148" />
       <p className={css.subject}>{name}</p>
       <p className={statusClasses.join(" ")}>
