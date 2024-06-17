@@ -1,7 +1,5 @@
 import css from "./Profile.module.css";
 
-console.log(css);
-
 export default function Profile({
   profiles: {
     username,
